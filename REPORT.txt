@@ -1,0 +1,55 @@
+Pix2Pix
+
+Abstract
+Generative Adversarial Networks, or GANs for short,
+ are an method to generative modeling using deep learning approach,
+ such as convolutional neural networks.
+
+
+
+
+Generative adversarial networks( G A N ) is a category
+ of deep learning in machine learning systems
+ design by Ian Goodfellow with his partners in 2014.
+Two neural networks fight with each other in a game
+ to win(just like game theory)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+conclusion;
+
+GANs are relatively new and still require some research to reach their new
+potential. In particular, training GANs requires finding Nash equilibria in 
+highdimensional, continuous, non-convex games. Researchers should strive
+ to develop better theoretical understanding and better training algorithms for this
+scenario. Success on this front would improve many other applications, besides
+GANs.
+GANs are crucial to many different state of the art image generation and
+manipulation systems, and have the potential to enable many other applications
+in the future.
+
+
+
+
+
+CONCEPT CLEARING RESOURCES :
+https://youtu.be/bfmFfD2RIcg (neural network)
+https://youtu.be/jwpSMg6Ebp0 (convolutional neural networks(pixels filtring numbers set of values))(used in face recognition) 
+https://youtu.be/Be15A_GJrL4?list=PLxlkzujLkmQ8YYNaQx_iRGjuQkvuz2H9w (convolution operation)
+https://youtu.be/WOe0pBO25_o (game theory)
+https://gan-paint-demo.mybluemix.net/?cm_mc_uid=18442949964915524319331&cm_mc_sid_50200000=60398911561414360866&cm_mc_sid_52640000=69930581561414360872(Hand on Experiance)
+
+Refrences
+https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
