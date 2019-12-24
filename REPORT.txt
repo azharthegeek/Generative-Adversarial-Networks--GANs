@@ -1,26 +1,22 @@
 Pix2Pix
 
-Abstract
+## Abstract:
+
 Generative Adversarial Networks, or GANs for short,
 are an method to generative modeling using deep learning approach,
-such as convolutional neural networks.
-
-Recently, generative adversarial networks (GAN) have become one of 
-the most popular topics in artificial intelligent field. Its 
-outstanding capability of generating realistic samples not only 
-revived the research of generative model, but also inspired the
- research of semi-supervised learning and unsupervised learning.
-
-Recently, generative adversarial networks (GANs) have become a research 
-focus of artiﬁcial intelligence. Inspired by two-player zero-sum game, 
+such as convolutional neural networks.Recently, generative adversarial networks(GAN) 
+have become one of the most popular topics in artificial intelligent field. Its 
+outstanding capability of generating realistic samples.Inspired by two-player zero-sum game, 
 GANs comprise a generator and a discriminator, both trained under the
- adversarial learning idea. The goal of GANs is to estimate the
- potential distribution of real data samples and generate new 
+adversarial learning idea. The goal of GANs is to estimate the
+potential distribution of real data samples and generate new 
 samples from that distribution. Since their initiation, GANs have
- been widely studied due to their enormous prospect for applications,
- including image and vision computing, speech and language processing,
- etc. In this review paper, we summarize the state of the art of GANs
- and look into the future. Firstly, we survey GANs’ proposal background,
+been widely studied due to their enormous prospect for applications,
+including image and vision computing, speech and language processing,
+etc.In this review paper, we summarize the state of the art of GANs
+and look into the future.
+
+ Firstly, we survey GANs’ proposal background,
  theoretic and implementation models, and application ﬁelds. Then, we
  discuss GANs’ advantages and disadvantages, and their development
  trends. In particular, we investigate the relation between GANs and
@@ -31,33 +27,101 @@ support for parallel intelligence.
 
 
 
-INTRODUCTION:
+### INTRODUCTION:
 
 Generative adversarial networks, or (G A Ns), are a very powerful 
 type of neural network used for unsupervised machine learning process.
 Made up of two rival(competing) models which run in competition with
 one another, GANs are able to capture and copy variations 
-within a dataset.
-
-They’re great for image manipulation and generation, but they 
+within a dataset.They’re great for image manipulation and generation, but they 
 can also be deployed for tasks like understanding risk of disease,security and
 recovery in healthcare and pharmacology.
 
-design by Ian Goodfellow with his partners in 2014.
+Design by Ian Goodfellow with his partners in 2014.
 Two neural networks fight with each other in a game
- to win(just like game theory)
-
-GANs are actually pretty new – they were first introduced 
-by Ian Goodfellow in 2014. Goodfellow developed them to
-tackle some of the issues with similar neural networks, 
-including the Boltzmann machine and autoencoders.
-
-Both the Boltzmann machine and autoencoders use the Markov 
-Decision Chain which has a pretty high computational cost. 
-This efficiency gives engineers significant gains – which you 
-need if you’re working at the cutting edge of artificial intelligence.
+to win(just like game theory)
 
 
+How do Generative Adversarial Networks work?
+
+Let’s start with a simple analogy(likeness). 
+You have a painting
+ – say the Mona Lisa – and we have a master forger who
+ wants to create a duplicate painting.
+ The forger does this by learning 
+how the original painter – Leonardo Da Vinci – produced the painting.
+
+Meanwhile, you have an investigator trying to 
+capture the forger and ‘second guess’ the rules 
+the forger is learning.
+
+To map this onto the architecture of a GAN, the forger 
+is the generator network, which learns the distribution of 
+classes while the investigator is the discriminator network, 
+which learning the boundaries 
+between those classes – the formal ‘shape’ of the dataset.
+
+###  Applications of GANs
+
+Generative adversarial networks are used for
+a number of different applications.
+
+Using GANs for Security
+
+The rise of artificial intelligence has been wonderful for most industries. 
+But there’s a real concern that has shadowed the entire AI revolution – cyber threats.
+ Even deep neural networks are susceptible to being hacked.
+
+A constant concern of industrial applications is that they should be robust 
+to cyber attacks. There’s a lot of confidential information on the line! GANs 
+are proving to be of immense help here, directly addressing the concern of “adversarial attacks”.
+
+These adversarial attacks use a variety of techniques to fool deep learning 
+architectures. GANs are used to make existing deep learning models more robust
+ to these techniques. How? By creating more such fake examples and training 
+the model to identify them. Pretty clever stuff.
+
+
+GOOGLE BRAIN:
+
+One of the best examples is a Google Brain
+project back in 2016 – researchers used
+GANs to develop a method of encryption.
+
+This project used 3 neural networks – Alice, Bob, and Eve. 
+Alice’s job was to send an encrypted message to Bob. 
+Bob’s job was to decode that message, while Eve’s job
+was to intercept it.
+
+To begin with Alice’s messages were easily intercepted by Eve.
+However, thanks to Eve’s adversarial work, Alice began to 
+develop its own encryption strategy – it took 15,000 runs for
+Alice to successfully encrypt a message that could be deciphered 
+by Bob that Eve couldn’t intercept.
+
+MEDICAL:
+
+GANs are also being used in fields such as drug research.
+The neural networks can be trained on the existing drugs Structures and suggest
+new synthetic chemical structures that improve on drugs that already exist.
+
+GANs for Image Editing:
+
+Most image editing software these days don’t give us much flexibility to
+ make creative changes in pictures. For example, let’s say you want to 
+change the appearance of a 90-year-old person by changing his/her hairstyle.
+ This can’t be done by the current image editing tools out there. 
+But guess what? Using GANs, we can reconstruct images and attempt 
+to change the appearance drastically.[1   ]
+
+GANs for 3D Object Generation
+
+It won’t surprise you to know GANs are quite popular in the gaming industry.
+Game designers work countless hours recreating 3D avatars and backgrounds 
+to give them a realistic feel. And let me assure you, it certainly takes a 
+lot of effort to create 3D models by imagination. Does this seem unrealistic? 
+Then I suggest you watch this video. You might believe the incredible power of GANs,
+wherein they can be used to automate the entire process!
 
 
 
@@ -67,22 +131,31 @@ need if you’re working at the cutting edge of artificial intelligence.
 
 
 
+## CONCLUSION:
 
-
-
-
-conclusion;
-
+generative adversarial networks (GANs) have become a research 
+focus of artiﬁcial intelligence.
 GANs are relatively new and still require some research to reach their new
 potential. In particular, training GANs requires finding Nash equilibria in 
 highdimensional, continuous, non-convex games. Researchers should strive
- to develop better theoretical understanding and better training algorithms for this
+to develop better theoretical understanding and better training algorithms for this
 scenario. Success on this front would improve many other applications, besides
 GANs.
+
 GANs are crucial to many different state of the art image generation and
 manipulation systems, and have the potential to enable many other applications
 in the future.
 
+## Generative adversarial networks: the cutting edge of artificial intelligence
+
+As we’ve seen, GANs offer some really exciting opportunities in artificial intelligence.
+ There are two key advantages you need to remember: GANs solve the problem of 
+generating data when you don’t have enough to begin with and they require no human supervision.
+
+This is crucial when you think about the cutting edge of artificial intelligence,
+ both in terms of the efficiency of running the models, and the real-world data 
+we want to use – which could be poor quality or have privacy and confidentiality 
+issues, as much healthcare data does.
 
 
 
@@ -99,3 +172,7 @@ Refrences
 https://www.researchgate.net/publication/320827528_Generative_Adversarial_Networks_Introduction_and_Outlook
 https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
 https ://youtu.be/-Upj_VhjTBs (GAN's)
+
+RESEARCH PAPER OR REVIEW LINK
+https://arxiv.org/pdf/1611.06355.pdf (open it using Vpn) [1]
+https://github.com/maxorange/pix2vox [2]
