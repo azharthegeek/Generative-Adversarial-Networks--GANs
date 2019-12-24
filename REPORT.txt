@@ -2,17 +2,60 @@ Pix2Pix
 
 Abstract
 Generative Adversarial Networks, or GANs for short,
- are an method to generative modeling using deep learning approach,
- such as convolutional neural networks.
+are an method to generative modeling using deep learning approach,
+such as convolutional neural networks.
+
+Recently, generative adversarial networks (GAN) have become one of 
+the most popular topics in artificial intelligent field. Its 
+outstanding capability of generating realistic samples not only 
+revived the research of generative model, but also inspired the
+ research of semi-supervised learning and unsupervised learning.
+
+Recently, generative adversarial networks (GANs) have become a research 
+focus of artiﬁcial intelligence. Inspired by two-player zero-sum game, 
+GANs comprise a generator and a discriminator, both trained under the
+ adversarial learning idea. The goal of GANs is to estimate the
+ potential distribution of real data samples and generate new 
+samples from that distribution. Since their initiation, GANs have
+ been widely studied due to their enormous prospect for applications,
+ including image and vision computing, speech and language processing,
+ etc. In this review paper, we summarize the state of the art of GANs
+ and look into the future. Firstly, we survey GANs’ proposal background,
+ theoretic and implementation models, and application ﬁelds. Then, we
+ discuss GANs’ advantages and disadvantages, and their development
+ trends. In particular, we investigate the relation between GANs and
+ parallel intelligence, with the conclusion that GANs have a great 
+potential in parallel systems research in terms of virtual-real interaction
+ and integration. Clearly, GANs can provide substantial algorithmic 
+support for parallel intelligence.
 
 
 
+INTRODUCTION:
 
-Generative adversarial networks( G A N ) is a category
- of deep learning in machine learning systems
- design by Ian Goodfellow with his partners in 2014.
+Generative adversarial networks, or (G A Ns), are a very powerful 
+type of neural network used for unsupervised machine learning process.
+Made up of two rival(competing) models which run in competition with
+one another, GANs are able to capture and copy variations 
+within a dataset.
+
+They’re great for image manipulation and generation, but they 
+can also be deployed for tasks like understanding risk of disease,security and
+recovery in healthcare and pharmacology.
+
+design by Ian Goodfellow with his partners in 2014.
 Two neural networks fight with each other in a game
  to win(just like game theory)
+
+GANs are actually pretty new – they were first introduced 
+by Ian Goodfellow in 2014. Goodfellow developed them to
+tackle some of the issues with similar neural networks, 
+including the Boltzmann machine and autoencoders.
+
+Both the Boltzmann machine and autoencoders use the Markov 
+Decision Chain which has a pretty high computational cost. 
+This efficiency gives engineers significant gains – which you 
+need if you’re working at the cutting edge of artificial intelligence.
 
 
 
@@ -49,7 +92,10 @@ https://youtu.be/bfmFfD2RIcg (neural network)
 https://youtu.be/jwpSMg6Ebp0 (convolutional neural networks(pixels filtring numbers set of values))(used in face recognition) 
 https://youtu.be/Be15A_GJrL4?list=PLxlkzujLkmQ8YYNaQx_iRGjuQkvuz2H9w (convolution operation)
 https://youtu.be/WOe0pBO25_o (game theory)
-https://gan-paint-demo.mybluemix.net/?cm_mc_uid=18442949964915524319331&cm_mc_sid_50200000=60398911561414360866&cm_mc_sid_52640000=69930581561414360872(Hand on Experiance)
+https://youtu.be/bOxdGdu1suk (minmax algoritham or game)
+https://gan-paint-demo.mybluemix.net/?cm_mc_uid=18442949964915524319331&cm_mc_sid_50200000=60398911561414360866&cm_mc_sid_52640000=69930581561414360872 (Hand on Experiance)
 
 Refrences
+https://www.researchgate.net/publication/320827528_Generative_Adversarial_Networks_Introduction_and_Outlook
 https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
+https ://youtu.be/-Upj_VhjTBs (GAN's)
