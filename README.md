@@ -40,7 +40,7 @@ Most image editing software these days don’t give us much freedom to make crea
    ##                      IV.GANs for 3D Object Generation
 It won’t surprise you understanding GANs are quite popular within the gaming industry rise drastically. Game designers work countless hours recreating 3D avatars and backgrounds 
 to give them a realistic feel. And let me assure you, it certainly takes a lot of effort to form 3D models by imagination. Does this sound unrealistic?. You might believe the incredible power of GANs, wherein they can be used to automate the entire process easily!
-we suggest you watch this video > https://raw.githubusercontent.com/maxorange/pix2vox/master/img/sample.gif
+we suggest you watch this video >https://raw.githubusercontent.com/maxorange/pix2vox/master/img/sample.gif
 
  ##                           In the end Remember
 As we have notice, GANs offer some really outstanding exciting opportunities in AI.
@@ -56,65 +56,67 @@ some research to reach their new potential. Researchers should struggle to devel
 
 ## IBM GAN demonstration
 link
-https://gan-paint-demo.mybluemix.net/?cm_mc_uid=18442949964915524319331&cm_mc_sid_50200000=60398911561414360866&cm_mc_sid_52640000=69930581561414360872
+>https://gan-paint-demo.mybluemix.net/?cm_mc_uid=18442949964915524319331&cm_mc_sid_50200000=60398911561414360866&cm_mc_sid_52640000=69930581561414360872
 
 
 # 3D sketch-modeling demonstration
 
 link
 
-https://sketch-modeling.com/
+> https://sketch-modeling.com/
 
 # Concept clearing resources 
 
 ## Neural Network
 
-https://youtu.be/bfmFfD2RIcg
+> https://youtu.be/bfmFfD2RIcg
 
 ## Convolutional neural networks(pixels filtering numbers set of values) (used in face recognition)
 
-https://youtu.be/jwpSMg6Ebp0
+> https://youtu.be/jwpSMg6Ebp0
 
 ## Convolution operation
 
-https://youtu.be/Be15A_GJrL4?list=PLxlkzujLkmQ8YYNaQx_iRGjuQkvuz2H9w
+> https://youtu.be/Be15A_GJrL4?list=PLxlkzujLkmQ8YYNaQx_iRGjuQkvuz2H9w
 
 ## Game theory
 
-https://youtu.be/WOe0pBO25_o
+> https://youtu.be/WOe0pBO25_o
 
 ## Minmax algorithm or game
 
-https://youtu.be/bOxdGdu1suk
+> https://youtu.be/bOxdGdu1suk
 
 ## 3D GAN resources zoo
 
-https://tmoriya.com/
+> https://tmoriya.com/
 
 # References
 
 GAN’s: Introduction and Outlook by Kunfeng Wang, Member, IEEE, Chao Gou, Yanjie Duan, Yilun Lin, Xinhu Zheng,
 and Fei-Yue Wang.
 
-https://www.researchgate.net/publication/320827528_Generative_Adversarial_Networks_Introduction_and_Outlook  (Research paper link)
+>https://www.researchgate.net/publication/320827528_Generative_Adversarial_Networks_Introduction_and_Outlook  (Research paper link)
 
 Invertible Conditional Generative adversarial networks for image editing by Joost van de Weijer, Bogdan Raducanu, Jose M. Álvarez, Guim Perarnau.
 
-https://arxiv.org/pdf/1611.06355.pdf (Research paper link)
+> https://arxiv.org/pdf/1611.06355.pdf (Research paper link)
 
 Image-to-Image Translation with Conditional Adversarial Networks by Jun-Yan Zhu,Tinghui Zhou, Alexei A. Efros, Phillip Isola
 
-https://arxiv.org/pdf/1611.07004v3.pdf (Research paper link)
+> https://arxiv.org/pdf/1611.07004v3.pdf (Research paper link)
 
 other helpful sites
 
-https://hub.packtpub.com/
-https://www.youtube.com/	
-https://www.analyticsvidhya.com/
+> https://hub.packtpub.com/
+
+> https://www.youtube.com/	
+
+> https://www.analyticsvidhya.com/
 
 # Papers List Published on GAN’s  150+:
 
-https://github.com/zhangqianhui/AdversarialNetsPapers
+> https://github.com/zhangqianhui/AdversarialNetsPapers
 
 ## Built with ❤︎
 
