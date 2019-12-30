@@ -1,4 +1,4 @@
-# GAN_s 
+# GAN's 
 ## __Generative Adversarial Network__ __Introduction & Outlook__
 
 #                                   Abstract
