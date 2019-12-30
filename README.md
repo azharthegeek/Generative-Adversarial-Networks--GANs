@@ -112,11 +112,6 @@ https://hub.packtpub.com/
 https://www.youtube.com/	
 https://www.analyticsvidhya.com/
 
-## All Data Research Related Work Available On:
-
-https://github.com/AZHARTHEGEEK/GAN_s  (branch 2 (“gans_2”) for more material)
-https://drive.google.com/open?id=1EwZ1vUctipiB_lPztk48RiJX6gbsSU46
-
 # Papers List Published on GAN’s  150+:
 
 https://github.com/zhangqianhui/AdversarialNetsPapers
