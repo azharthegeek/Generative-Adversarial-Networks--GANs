@@ -120,6 +120,6 @@ other helpful sites
 
 ## Built with ❤︎
 
-> If you Think This File Need Improvement Pull a request or share suggestion at azharthegeek@gmail.com
+> If you Think This repository Need Improvement Pull a request or share suggestion at azharthegeek@gmail.com
 
-More Material on GAN's is Available on second Branch of this Respositery.(More data update soon) 
+More Material on GAN's is Available on second Branch of this repository.(More data update soon) 
