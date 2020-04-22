@@ -118,7 +118,7 @@ other helpful sites
 
 > https://github.com/zhangqianhui/AdversarialNetsPapers
 
-## Built with ❤︎
+## Built with ❤︎❤❤
 
 > If you Think This repository Need Improvement Pull a request or share suggestion at azharthegeek@gmail.com
 
